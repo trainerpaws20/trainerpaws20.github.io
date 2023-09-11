@@ -67,7 +67,7 @@ body {
 
 
 
-#anchor-port {
+#anchor-port,#anchor-about {
     background-color: rgba(2, 64, 100, 1);
     text-align: center;
     padding: 20px;
