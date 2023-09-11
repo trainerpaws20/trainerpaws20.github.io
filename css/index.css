@@ -27,6 +27,25 @@ nav ul {
     list-style: none;
 }
 
+nav li {
+    color: white;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgba(2, 64, 100, 1);
+}
+
 p {
     color: black;
 }
