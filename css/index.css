@@ -1,7 +1,76 @@
+header {
+    background-color: rgba(2, 64, 100, 1);
+    text-align: center;
+    margin: 0px;
+}
+
+.title {
+    padding: 50px;
+}
+
+.title h1 {
+    font-size: 60px;
+    color: white;
+}
+
+nav {
+    background-color: rgba(153, 185, 203, 1);
+    padding: 20px;
+}
+
+ul {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+    list-style: none;
+}
+
 p {
-    color: firebrick;
+    color: black;
 }
 
 body {
     background-color: rgba(153, 185, 203, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.description-right,.description-left {
+    width: 300px;
+    padding: 30px;
+}
+
+.img-left,.img-right {
+    width: 500px;
+    height: auto;
+}
+
+.img-left img,.img-right img{
+    width: 100%;
+    height: auto;
+}
+
+.box-website-left {
+    display: flex;
+    background: white;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.box-website-right {
+    display: flex;
+    background: white;
+    width: 100%;
+}
+
+
+
+#anchor-port {
+    background-color: rgba(2, 64, 100, 1);
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    color: white;
 }
