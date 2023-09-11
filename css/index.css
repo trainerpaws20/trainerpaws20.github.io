@@ -48,6 +48,7 @@ a:hover {
 
 p {
     color: black;
+    max-width: 75ch;
 }
 
 button {
@@ -70,8 +71,14 @@ body {
 }
 
 .description-right,.description-left {
-    padding: 30px;
-    max-width: 75ch;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    
+}
+
+.description-right h2,.description-left h2{
+    color: rgba(2, 64, 100, 1);
 }
 
 .description-right div {
@@ -98,7 +105,6 @@ button:hover {
 .box-website-left {
     display: flex;
     background: white;
-    margin-bottom: 30px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -140,7 +146,7 @@ button:hover {
     padding: 50px;
 }
 
-h2 {
+#contact-body h2 {
     color: white;
 }
 
@@ -157,11 +163,13 @@ strong {
 
 footer {
     text-align: center;
+    background-color: rgba(153, 185, 203, 1);
+    padding: 50px;
 }
 
 footer p {
     color: rgba(5, 94, 146, 1);
-    padding: 50px;
+    
 }
 
 /*@media (min-width: 300px) {
