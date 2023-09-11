@@ -109,3 +109,12 @@ h2 {
 strong {
     text-decoration: underline;
 }
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: rgba(5, 94, 146, 1);
+    padding: 50px;
+}
