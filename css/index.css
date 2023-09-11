@@ -79,6 +79,7 @@ body {
 
 .description-right h2,.description-left h2{
     color: rgba(2, 64, 100, 1);
+    margin-top: 0px;
 }
 
 .description-right div {
@@ -93,27 +94,30 @@ button:hover {
     color: rgba(2, 64, 100, 1);
 }
 
-.img-left,.img-right {
+/*.img-left,.img-right {
     padding: 30px;
-}
+}*/
 
-.img-left img,.img-right img{
+.img-1,.img-2 {
     width: 600px;
-    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.box-website-left {
+.box-website-left img,.box-website-right img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.box-website-left,.box-website-right {
     display: flex;
     background: white;
     padding-left: 50px;
     padding-right: 50px;
-}
-
-.box-website-right {
-    display: flex;
-    background: white;
-    padding-right: 50px;
-    padding-left: 50px;
+    margin-top: 50px;
 }
 
 #anchor-port,#anchor-about,#anchor-contact {
@@ -129,6 +133,11 @@ button:hover {
     display: flex;
     padding-left: 50px;
     padding-right: 50px
+}
+
+.about-body img {
+    width: 600px;
+    height: auto;
 }
 
 #about-body img {
