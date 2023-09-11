@@ -91,10 +91,18 @@ body {
 
 #contact-body {
     text-align: center;
+    background-color: rgba(5, 94, 146, 1);
+    padding: 50px;
+}
+
+h2 {
+    color: white;
 }
 
 .phone-email {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 5rem;
 }
 
