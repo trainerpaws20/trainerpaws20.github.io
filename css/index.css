@@ -65,7 +65,7 @@ body {
     padding-left: 50px;
 }
 
-#anchor-port,#anchor-about {
+#anchor-port,#anchor-about,#anchor-contact {
     background-color: rgba(2, 64, 100, 1);
     text-align: center;
     padding: 20px;
@@ -87,4 +87,17 @@ body {
 
 .about-text {
     padding: 30px;
+}
+
+#contact-body {
+    text-align: center;
+}
+
+.phone-email {
+    display: flex;
+    gap: 5rem;
+}
+
+strong {
+    text-decoration: underline;
 }
