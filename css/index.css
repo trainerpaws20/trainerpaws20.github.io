@@ -50,6 +50,16 @@ p {
     color: black;
 }
 
+button {
+    background-color: rgba(2, 64, 100, 1);
+    color: white;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 body {
     background-color: rgba(153, 185, 203, 1);
     font-family: Arial, Helvetica, sans-serif;
@@ -59,6 +69,10 @@ body {
 .description-right,.description-left {
     padding: 30px;
 }
+
+/*.description-right button {
+    
+}*/
 
 .img-left,.img-right {
     padding: 30px;
