@@ -106,9 +106,6 @@ button:hover {
 @media (max-width: 600px) {
     .img-1 {
         width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 10px;
     }
 
     .img-2 {
@@ -126,7 +123,7 @@ button:hover {
 .box-website-right {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     background: white;
     margin-top: 75px;
 }
@@ -148,19 +145,21 @@ button:hover {
 
 #anchor-about,
 #anchor-contact {
-    margin-top: 50px;
+    margin-top: 75px;
 }
 
 #about-body {
     background-color: white;
     display: flex;
+    justify-content: center;
+    gap: 2rem;
     padding-left: 50px;
     padding-right: 50px;
     margin-top: 50px;
 }
 
 #about-body div {
-    width: 600px;
+    width: 400px;
     height: auto;
     align-items: center;
     
@@ -168,17 +167,13 @@ button:hover {
 
 #about-body img {
     /*width: 700px;*/
-    width: 400px; 
+    width: 100%; 
     height: auto;
-    padding: 30px;
-}
-
-.about-text {
-    padding: 30px;
 }
 
 #contact-body {
     text-align: center;
+    justify-content: center;
     background-color: rgba(5, 94, 146, 1);
     padding: 50px;
 }
@@ -274,7 +269,6 @@ footer a:hover {
     #about-body img {
         /*width: 700px;*/
         width: 350px;
-        padding: 30px;
         align-self: center;
     }
 
@@ -289,12 +283,12 @@ footer a:hover {
         flex-direction: column;
     }
 
-    .description-right,
+    /*.description-right,
     .description-left {
         padding-left: 30px;
         padding-right: 30px;
         padding-top: 10px;
-    }
+    }*/
 
     .phone-email {
         display: flex;
