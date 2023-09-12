@@ -72,14 +72,16 @@ body {
     font-size: 18px;
 }
 
-.description-right,.description-left {
+.description-right,
+.description-left {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
-    
+
 }
 
-.description-right h2,.description-left h2{
+.description-right h2,
+.description-left h2 {
     color: rgba(2, 64, 100, 1);
     margin-top: 0px;
 }
@@ -100,7 +102,8 @@ button:hover {
     padding: 30px;
 }*/
 
-.img-1,.img-2 {
+.img-1,
+.img-2 {
     width: 600px;
     padding-left: 10px;
     padding-right: 10px;
@@ -119,15 +122,15 @@ button:hover {
     }
 }
 
-.box-website-left img,.box-website-right img {
-    display: flex;
-    flex-wrap: wrap;
+.box-website-left img,
+.box-website-right img {
     width: 100%;
-    object-fit: cover;
+    height: auto;
     padding: 10px;
 }
 
-.box-website-left,.box-website-right {
+.box-website-left,
+.box-website-right {
     display: flex;
     justify-content: center;
     background: white;
@@ -136,7 +139,9 @@ button:hover {
     margin-top: 50px;
 }
 
-#anchor-port,#anchor-about,#anchor-contact {
+#anchor-port,
+#anchor-about,
+#anchor-contact {
     background-color: rgba(2, 64, 100, 1);
     text-align: center;
     padding: 20px;
@@ -144,7 +149,8 @@ button:hover {
     color: white;
 }
 
-#anchor-about,#anchor-contact {
+#anchor-about,
+#anchor-contact {
     margin-top: 50px;
 }
 
@@ -204,7 +210,7 @@ footer h4 {
     text-align: center;
     padding: 50px;
     margin: 0px;
-    
+
 }
 
 footer nav {
@@ -238,20 +244,20 @@ footer a:hover {
     position: fixed;
     top: 0;
     width: 100%;
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + body {
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky+body {
     padding-top: 60px;
-  }
+}
 
 @media (max-width: 600px) {
-   
+
     .title h1 {
         font-size: 40px;
         color: white;
     }
-    
+
     .box-website-left {
         flex-direction: column-reverse;
     }
@@ -283,7 +289,8 @@ footer a:hover {
         flex-direction: column;
     }
 
-    .description-right,.description-left {
+    .description-right,
+    .description-left {
         padding-left: 30px;
         padding-right: 30px;
         padding-top: 10px;
@@ -297,4 +304,3 @@ footer a:hover {
         gap: 0.5rem;
     }
 }
-
