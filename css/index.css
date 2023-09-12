@@ -72,13 +72,13 @@ body {
     margin: 0px;
 }
 
-.description-right,
+/*.description-right,
 .description-left {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
 
-}
+}*/
 
 .description-right h2,
 .description-left h2 {
@@ -98,15 +98,9 @@ button:hover {
     color: rgba(2, 64, 100, 1);
 }
 
-/*.img-left,.img-right {
-    padding: 30px;
-}*/
-
 .img-1,
 .img-2 {
     width: 600px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 @media (max-width: 600px) {
@@ -126,15 +120,18 @@ button:hover {
 .box-website-right img {
     width: 100%;
     height: auto;
-    padding: 10px;
 }
 
 .box-website-left,
 .box-website-right {
     display: flex;
     justify-content: center;
+    gap: 1rem;
     background: white;
     margin-top: 75px;
+}
+
+#port-body {
     padding-left: 50px;
     padding-right: 50px;
 }
