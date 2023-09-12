@@ -128,11 +128,16 @@ button:hover {
     color: white;
 }
 
+#anchor-about,#anchor-contact {
+    margin-top: 50px;
+}
+
 #about-body {
     background-color: white;
     display: flex;
     padding-left: 50px;
-    padding-right: 50px
+    padding-right: 50px;
+    margin-top: 50px;
 }
 
 .about-body img {
@@ -171,13 +176,14 @@ strong {
 }
 
 footer {
-    text-align: center;
     background-color: rgba(153, 185, 203, 1);
     padding: 50px;
+    align-items: center;
 }
 
-footer p {
+footer h4 {
     color: rgba(5, 94, 146, 1);
+    text-align: center;
     
 }
 
