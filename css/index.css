@@ -51,6 +51,7 @@ a:hover {
 p {
     color: black;
     max-width: 75ch;
+    padding: 0px;
 }
 
 button {
@@ -171,6 +172,10 @@ button:hover {
     height: auto;
 }
 
+#about-body p {
+    margin-top: 0px;
+}
+
 #contact-body {
     text-align: center;
     justify-content: center;
@@ -266,9 +271,14 @@ footer a:hover {
         height: auto;
     }
 
+    #about-body div {
+        width: 300px;
+        padding: 0px;
+    }
+
     #about-body img {
         /*width: 700px;*/
-        width: 350px;
+        width: 100%;
         align-self: center;
     }
 
@@ -279,15 +289,8 @@ footer a:hover {
         justify-content: start;
     }
 
-    #about-body {
+    /*#about-body {
         flex-direction: column;
-    }
-
-    /*.description-right,
-    .description-left {
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 10px;
     }*/
 
     .phone-email {
