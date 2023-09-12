@@ -289,9 +289,9 @@ footer a:hover {
         justify-content: start;
     }
 
-    /*#about-body {
+    #about-body {
         flex-direction: column;
-    }*/
+    }
 
     .phone-email {
         display: flex;
