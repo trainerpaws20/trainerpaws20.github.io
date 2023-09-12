@@ -178,14 +178,42 @@ strong {
 
 footer {
     background-color: rgba(153, 185, 203, 1);
-    padding: 50px;
     align-items: center;
+    margin: 0px;
 }
 
 footer h4 {
     color: rgba(5, 94, 146, 1);
     text-align: center;
+    padding: 50px;
+    margin: 0px;
     
+}
+
+footer nav {
+    background-color: rgba(2, 64, 100, 1);
+    padding: 20px;
+}
+
+footer nav ul {
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+    list-style: none;
+}
+
+footer nav li {
+    color: rgba(153, 185, 203, 1);
+}
+
+footer a:link {
+    color: rgba(153, 185, 203, 1);
+}
+
+footer a:hover {
+    color: white;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
