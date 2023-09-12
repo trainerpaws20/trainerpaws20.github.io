@@ -231,18 +231,49 @@ footer a:hover {
     padding-top: 60px;
   }
 
-/*@media (min-width: 300px) {
-    .box-website-left {
-        flex-direction: column;
+@media (max-width: 600px) {
+   
+    .title h1 {
+        font-size: 40px;
+        color: white;
     }
-
-    .box-website-right {
+    
+    .box-website-left {
         flex-direction: column-reverse;
     }
 
-    .img-left img,.img-right img {
-        width: 500px;
+    .box-website-right {
+        flex-direction: column;
+    }
+
+    img {
+        width: 200px;
         height: auto;
+    }
+
+    .img-1 {
+        width: 350px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+
+    .img-2 {
+        display: none;
+    }
+
+    #about-body img {
+        /*width: 700px;*/
+        width: 350px;
+        padding: 30px;
+        align-self: center;
+    }
+
+    .description-right div {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: start;
     }
 
     #about-body {
@@ -254,5 +285,13 @@ footer a:hover {
         padding-right: 30px;
         padding-top: 10px;
     }
-}*/
+
+    .phone-email {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+}
 
