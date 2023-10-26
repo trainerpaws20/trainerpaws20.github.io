@@ -143,10 +143,12 @@ button:hover {
     padding: 20px;
     margin: 0px;
     color: white;
+    width: 100%;
 }
 
 #anchor-about,
-#anchor-contact {
+#anchor-contact,
+#anchor-graphic {
     margin-top: 75px;
 }
 
