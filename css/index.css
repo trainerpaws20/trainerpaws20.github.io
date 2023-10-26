@@ -136,7 +136,8 @@ button:hover {
 
 #anchor-port,
 #anchor-about,
-#anchor-contact {
+#anchor-contact,
+#anchor-graphic {
     background-color: rgba(2, 64, 100, 1);
     text-align: center;
     padding: 20px;
