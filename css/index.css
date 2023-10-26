@@ -129,21 +129,29 @@ button:hover {
     margin-top: 75px;
 }
 
-#port-body {
+#port-body,
+#graphic-body {
     padding-left: 50px;
     padding-right: 50px;
 }
 
 #anchor-port,
 #anchor-about,
-#anchor-contact,
-#anchor-graphic {
+#anchor-contact {
     background-color: rgba(2, 64, 100, 1);
     text-align: center;
     padding: 20px;
     margin: 0px;
     color: white;
     width: 100%;
+}
+
+#anchor-graphic {
+    background-color: rgba(2, 64, 100, 1);
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    color: white;
 }
 
 #anchor-about,
@@ -303,5 +311,9 @@ footer a:hover {
         align-items: center;
         justify-content: center;
         gap: 0.5rem;
+    }
+
+    nav ul {
+        font-size: 15px;
     }
 }
